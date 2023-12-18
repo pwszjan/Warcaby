@@ -1,4 +1,4 @@
-package com.checkers;
+package com.checkers.checkers;
 
 import javafx.application.Application;
 import javafx.scene.Group;

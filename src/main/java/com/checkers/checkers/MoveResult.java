@@ -1,4 +1,4 @@
-package com.checkers;
+package com.checkers.checkers;
 
 public class MoveResult {
 

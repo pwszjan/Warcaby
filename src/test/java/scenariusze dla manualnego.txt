@@ -1,0 +1,53 @@
+1. Test Inicjalizacji Gry
+
+Uruchom aplikację.
+Sprawdź, czy plansza gry została poprawnie zainicjalizowana z odpowiednią liczbą pionków dla każdego gracza.
+
+2. Test Prostego Ruchu Pionka
+
+Wykonaj prosty ruch pionkiem.
+Sprawdź, czy pionek został przesunięty na właściwe pole.
+
+3. Test Bicia Pionka
+
+Ułóż pionki tak, aby możliwe było bicie.
+Wykonaj ruch z biciem.
+Sprawdź, czy zbity pionek został usunięty z planszy.
+
+4. Test Promocji na Damkę
+
+Przesuń pionek do ostatniego rzędu przeciwnika.
+Sprawdź, czy pionek został promowany na damkę.
+
+5. Test Ruchu Damką
+
+Przesuń damkę o kilka pól.
+Sprawdź, czy ruch jest zgodny z zasadami gry.
+
+6. Test Bicia Wielokrotnego
+
+Ustaw pionki tak, aby możliwe było wielokrotne bicie.
+Przeprowadź ruch z wielokrotnym biciem.
+Sprawdź, czy wszystkie zbite pionki zostały usunięte z planszy.
+
+7. Test Zakończenia Gry
+
+Doprowadź do sytuacji, w której jeden z graczy nie ma już ruchów lub pionków.
+Sprawdź, czy gra się zakończyła i czy wyświetlono odpowiedni komunikat o zwycięzcy.
+
+8. Test Reakcji na Niepoprawne Ruchy
+
+Spróbuj wykonać niepoprawny ruch (np. ruch w tył zwykłym pionkiem).
+Sprawdź, czy gra wyświetla komunikat o błędzie i nie pozwala na wykonanie ruchu.
+
+9. Test Interfejsu Użytkownika
+
+Sprawdź, czy wszystkie elementy interfejsu są widoczne i działają poprawnie (przyciski, informacje o tury, itp.).
+Testuj responsywność interfejsu na różnych rozmiarach ekranu i urządzeniach.
+
+10. Test Odporności na Błędy
+
+Spróbuj wykonać serię nieoczekiwanych działań w aplikacji, takich jak kliknięcie w różne części interfejsu użytkownika w szybkiej sekwencji, naciskanie wielu klawiszy klawiatury równocześnie, minimalizowanie i maksymalizowanie okna gry, itp.
+Spróbuj wykonać ruchy pionkami w sposób, który nie jest dozwolony przez zasady gry, na przykład przesuwając pionek o dwie przestrzenie bez bicia, lub wykonując ruch w tył pionkiem, który nie jest damką.
+Monitoruj zachowanie aplikacji podczas tych działań, zwracając uwagę na wszelkie nieoczekiwane zamknięcia, błędy, lub nietypowe zachowania interfejsu użytkownika.
+Sprawdź, czy aplikacja poprawnie radzi sobie z nieprawidłowymi wejściami i czy nadal działa płynnie po takich testach.
