@@ -20,9 +20,6 @@ Testy jednostkowe i integracyjne można uruchomić poprzez:
 1. Otwarcie projektu w środowisku programistycznym.
 2. Uruchomienie testów za pomocą wbudowanych narzędzi do testowania.
 
-## Dokumentacja API
-Dokumentacja API dostępna jest w folderze `docs` w repozytorium projektu. Zawiera szczegółowe opisy poszczególnych klas oraz metod użytych w aplikacji.
-
 ## Scenariusze Testowe dla Testera Manualnego
 1. Test Inicjalizacji Gry
 2. Test Prostego Ruchu Pionka
