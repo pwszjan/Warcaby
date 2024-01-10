@@ -21,18 +21,19 @@ Testy jednostkowe i integracyjne można uruchomić poprzez:
 2. Uruchomienie testów za pomocą wbudowanych narzędzi do testowania.
 
 ## Scenariusze Testowe dla Testera Manualnego
-1. Test Inicjalizacji Gry
-2. Test Prostego Ruchu Pionka
-3. Test Bicia Pionka
-4. Test Promocji na Damkę
-5. Test Ruchu Damką
-6. Test Bicia Wielokrotnego
-7. Test Zakończenia Gry
-8. Test Reakcji na Niepoprawne Ruchy
-9. Test Interfejsu Użytkownika
-10. Test Odporności na Błędy
+| Test Case ID | Opis                                  | Kroki testowe                                                                 | Oczekiwany wynik                                               |
+|--------------|---------------------------------------|------------------------------------------------------------------------------|----------------------------------------------------------------|
+| TC_01        | Test Inicjalizacji Gry                | 1. Uruchom grę.<br>2. Sprawdź czy wszystkie elementy są na swoich miejscach. | Gra się rozpoczyna, wszystkie pionki są ustawione poprawnie.    |
+| TC_02        | Test Prostego Ruchu Pionka            | 1. Przesuń pionka o jedno pole do przodu.                                   | Pionek przemieszcza się zgodnie z zasadami gry.                |
+| TC_03        | Test Bicia Pionka                     | 1. Ustaw pionki na pozycjach umożliwiających bicie.<br>2. Przesuń pionek, aby wykonać bicie. | Pionek bijący przemieszcza się na odpowiednie pole, pionek zbity jest usuwany z planszy. |
+| TC_04        | Test Promocji na Damkę                | 1. Przenieś pionka na ostatni rząd przeciwnika.                             | Pionek zostaje zamieniony na damkę.                           |
+| TC_05        | Test Ruchu Damką                      | 1. Wykonaj ruch damką na skos o kilka pól.                                  | Damka przemieszcza się zgodnie z zasadami.                    |
+| TC_06        | Test Bicia Wielokrotnego              | 1. Ustaw pionki umożliwiające wielokrotne bicie.<br>2. Przesuń pionek/damkę, aby wykonać serię bić. | Pionek/damka wykonuje bicie wielokrotne, zbijając kilka pionków przeciwnika. |
+| TC_07        | Test Zakończenia Gry                  | 1. Doprowadź do sytuacji końcowej na planszy.                               | Gra wykrywa zwycięzcę lub remis i kończy rozgrywkę.            |
+| TC_08        | Test Reakcji na Niepoprawne Ruchy     | 1. Próba wykonania niedozwolonego ruchu pionkiem.                           | Gra nie pozwala na wykonanie niedozwolonego ruchu.             |
+| TC_09        | Test Interfejsu Użytkownika           | 1. Przetestuj wszystkie przyciski i menu w grze.                            | Wszystkie elementy interfejsu reagują poprawnie.               |
+| TC_10        | Test Odporności na Błędy              | 1. Spróbuj wykonać serię nieprawidłowych operacji.                          | Gra pozostaje stabilna i nie zamyka się nieoczekiwanie.        |
 
-(Szczegółowe opisy scenariuszy testowych dostępne są w pliku `scenariusze dla manualnego.txt`)
 
 ## Technologie Użyte w Projekcie
 - Język programowania: Java
